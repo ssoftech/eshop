@@ -1,0 +1,90 @@
+/* CSS Document */
+
+@import url('http://fonts.googleapis.com/css?family=Roboto');
+
+@CHARSET "ISO-8859-1";
+
+html, body {
+	max-width: 100%;
+	font-family: Roboto;
+}
+
+#body1 {
+	margin-bottom: 20px;
+	margin-left: -15px;
+}
+
+#orderBody6 {
+	float: left;
+	width: 975px;
+	height: auto;
+	margin-top: -30px;
+	margin-left: 40px;
+	margin-bottom: 10px; padding : 5px 5px 5px 5px;
+	display: block;
+	padding: 5px 5px 5px 5px;
+	color: white;
+	/* border: 1px solid black; */
+}
+
+.orderTab1 {
+	width: 970px;
+	border: 1px solid white;
+	box-shadow: 2px 2px 10px black;
+	table-layout: fixed;
+	word-wrap: break-word;
+	margin-bottom: 5px;
+}
+
+.orderTab1 a {
+	text-decoration: none;
+	color: white;
+}
+
+.orderTab1 a:ACTIVE {
+	color: orange;
+	text-shadow: 0px 0px 25px white;
+}
+
+/* 
+.orderTab2 {
+	text-align: right;
+	float: right;
+	width: 250px;
+	height: 60px;
+	margin-top: 0px;
+	margin-left: 470px;
+	border: 1px solid black;
+}
+
+.orderTab2 a {
+	margin-right: -20px;
+	background: #f2edf2;
+	background-image: -webkit-linear-gradient(top, #f2edf2, #c1d4d4);
+	background-image: -moz-linear-gradient(top, #f2edf2, #c1d4d4);
+	background-image: -ms-linear-gradient(top, #f2edf2, #c1d4d4);
+	background-image: -o-linear-gradient(top, #f2edf2, #c1d4d4);
+	background-image: linear-gradient(to bottom, #f2edf2, #c1d4d4);
+	-webkit-border-radius: 5;
+	-moz-border-radius: 5;
+	border-radius: 2px;
+	font-family: Arial;
+	color: #000000;
+	font-size: 18px;
+	padding: 10px 16px 10px 16px;
+	text-decoration: none;
+	cursor: default;
+}
+
+.orderTab2 a:hover {
+	background: #f7eff7;
+	background-image: -webkit-linear-gradient(top, #f7eff7, #e8e8e8);
+	background-image: -moz-linear-gradient(top, #f7eff7, #e8e8e8);
+	background-image: -ms-linear-gradient(top, #f7eff7, #e8e8e8);
+	background-image: -o-linear-gradient(top, #f7eff7, #e8e8e8);
+	background-image: linear-gradient(to bottom, #f7eff7, #e8e8e8);
+	text-decoration: none;
+}
+ */
+
+ 

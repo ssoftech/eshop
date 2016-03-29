@@ -1,0 +1,62 @@
+/* CSS Document */
+
+#body3{
+	margin-bottom:10px;
+	margin-left: 5px;
+}
+
+#categoryTag{
+	margin-left: 460px;
+	padding-top: 15px;
+}
+
+#categorycontentwrapper{
+	width: 1230px;
+	height: 500px;
+	/*border: 1px solid #FFF;*/
+	margin-left: 45px;
+	margin-bottom: 25px;
+	padding-top: 25px;
+}
+
+.men{
+	width: 308px;
+	height: 461px;
+	border: 5px solid #03F;
+	diplay:block;
+	position: relative;
+	float:left;
+	margin-left: 0px;
+}
+
+.kids{
+	width:564px;
+	height:203px;
+	border: 5px solid #CF0;
+	diplay:block;
+	position: relative;
+	float:left;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+.electronics{
+	width:564px;
+	height:203px;
+	border: 5px solid #060;
+	diplay:block;
+	position: relative;
+	float:left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.women{
+	width: 308px;
+	height: 461px;
+	border: 5px solid #800000;
+	diplay:block;
+	position: relative;
+	float:right;
+	margin-top: -230px;
+}

@@ -1,0 +1,125 @@
+@CHARSET "ISO-8859-1";
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	/*  padding-left: 20%;
+	padding-top:5%;  */
+	font-family: "SourceSansPro-Regular";
+	font-size: 14px;
+	text-align: center;
+}
+
+ul#navmenu {
+	padding-left: 12.5%;
+	margin-top: 4.8px;
+	min-width: 800px;
+	position: relative;
+	z-index: 9999;
+}
+
+ul#navmenu, ul.sub1, ul.sub2, ul.sub3 {
+	list-style-type: none;
+}
+
+ul#navmenu li {
+	width: 130px;
+	text-align: center;
+	position: relative;
+	float: left;
+	margin-right: 0px;
+}
+
+ul#navmenu a {
+	text-decoration: none;
+	position: relative;
+	display: block;
+	width: 139px;
+	height: 32px;
+	line-height: 34px;
+	border-bottom: none;
+	color: white;
+	overflow: hidden;
+}
+
+ul#navmenu .sub1 li {
+	display: block;
+	margin-top: 3px;
+}
+
+ul#navmenu .sub1 a {
+	border: 1px groove #44c7f4;
+	cursor: pointer;
+	-webkit-box-shadow: 0 8px 6px -6px #032c3a;
+	-moz-box-shadow: 0 8px 6px -6px #032c3a;
+	box-shadow: 0 8px 6px -6px #032c3a;
+	font-size: 12px;
+	background: #6fcde7;
+}
+
+ul#navmenu .sub2 a {
+	margin-left: 0px;
+	cursor: pointer;
+	-webkit-box-shadow: 0 8px 6px -6px #032c3a;
+	-moz-box-shadow: 0 8px 6px -6px #032c3a;
+	box-shadow: 0 8px 6px -6px #032c3a;
+}
+
+ul#navmenu li:hover>a {
+	background: #44c7f4;
+	color: #fff;
+}
+
+ul#navmenu li:hover  a:hover {
+	background: #fff;
+	color: #44c7f4;
+	border: 1px groove #44c7f4;
+	border-radius: 12px;
+	-webkit-box-shadow: 0 8px 6px -6px #032c3a;
+	-moz-box-shadow: 0 8px 6px -6px #032c3a;
+	box-shadow: 0 8px 6px -6px #032c3a;
+}
+
+ul#navmenu ul.sub1 {
+	display: none;
+	position: absolute;
+	top: 32px;
+	left: 0px;
+}
+
+ul#navmenu ul.sub2 {
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 139px;
+}
+
+ul#navmenu li:hover .sub1 {
+	display: block;
+}
+
+ul#navmenu .sub1 li:hover .sub2 {
+	display: block;
+}
+
+ul#navmenu .sub2 li {
+	margin-left: 5px;
+}
+
+ul#navmenu ul.sub3 {
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 139px;
+}
+
+ul#navmenu .sub1 li:hover .sub2 li:hover .sub3 {
+	display: block;
+}
+
+ul#navmenu .sub3 li {
+	margin-left: 5px;
+}

@@ -1,0 +1,117 @@
+@import url('http://fonts.googleapis.com/css?family=Quicksand');
+@CHARSET "ISO-8859-1";
+
+html, body {
+	background: url("../images1/LoginImgs/woodpattern1.jpg");
+}
+
+.login {
+    width: 61%;
+    float: none;
+    padding: 4% 0%;
+	background:#fff;
+	size: portrait;	
+	margin-left:32%;
+	margin-top:16%;
+	
+}
+
+table{
+	
+	border: 2px groove #44c7f4;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+	border-color:#44c7f4 ;
+	float: center;
+	width:200px;
+    
+	
+}
+ input[name="Otp"]  {
+    outline: none;
+    font-size: 16px;
+    color:#44c7f4 ;
+    padding: 5px 30px 10px 36px;
+    margin-left:-6%;
+    padding-left:12%;
+    width: 80%;
+    border: none;
+    border-bottom: 2px solid #cecfd3;
+    -webkit-appearance: none;
+    background-image: url("../images/emai.jpg");
+    background-position: 7px 7px;
+    background-repeat: no-repeat;
+    font-style: Quicksand;
+}
+
+.login-top {
+    padding: 0px 25px;
+    margin-top: 3%;
+}
+.resp-tab-item {
+    color: #44c7f4;
+    font-size: 23px;
+    cursor: pointer;
+    padding: 0px 0px;
+    display: block;
+    margin: 0;
+    text-align: center;
+    list-style: none;
+    outline: none;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    margin: 0 5px;
+}
+
+.resp-tab-item:HOVER {
+	-webkit-filter: brightness(120%);
+}
+.resp-tabs-list {
+    list-style: none;
+    padding-left: 19px;
+    text-align: left;
+}
+input[type="submit"] {
+    font-size: 15px;
+    color: #44c7f4;
+    background: #fff;
+    border: 2px solid #44c7f4;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -o-border-radius: 20px;
+    -ms-border-radius: 20px;
+    padding: 6px 13px;
+    font-style: Quicksand;
+}
+ input[type="submit"]:hover{
+	background:#44c7f4;
+	color:#fff;
+	transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	-ms-transition: 0.5s all ease;
+}
+
+input::-webkit-input-placeholder 
+{  
+      color: #43a0bf; font-style: Quicksand;
+}
+ input:-ms-input-placeholder 
+ {  
+      color: #43a0bf; font-style: Quicksand;
+ }
+ input:-moz-placeholder 
+ {  
+      color: #43a0bf;  font-style: Quicksand;
+ }
+ input::-moz-placeholder {  
+      color: #43a0bf; font-style: Quicksand; 
+ }

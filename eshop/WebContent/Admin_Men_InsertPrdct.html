@@ -1,0 +1,329 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<title>Admin_MensWear_Insert</title>
+<link href="css/style_masterpage.css" rel='stylesheet' type='text/css' />
+<link rel='stylesheet' type='text/css' href="css/style_navmenu.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+ <script type="text/javascript">
+ 
+ //Jquerry code for summing
+ $(document).ready(function(){
+ 
+        //iterate through each textboxes and add keyup
+        //handler to trigger sum event
+        $(".size").each(function() {
+ 
+            $(this).keyup(function(){
+                calculateSum();
+            });
+        });
+ 
+    });
+//Javascript code for summing quantity
+function calculateSum() {
+ 
+        var sum = 0;
+        //iterate through each textboxes and add the values
+        $(".size").each(function() {
+ 
+            //add only if the value is number
+            if(!isNaN(this.value) && this.value.length!=0) {
+                sum += parseFloat(this.value);
+            }
+ 
+        });
+        //.toFixed() method will roundoff the final sum to 2 decimal places
+        $("#Total_Quantity").val(sum.toFixed(2));
+    }
+//Javascript code for current date
+function myFunction()
+{
+var a=new Date();
+var c=a.toLocaleDateString();
+document.getElementById("ppp").value=c;
+}
+
+// Ajax Code for Select Category
+function show(str) {
+    if (str.length == 0) { 
+        document.getElementById("ff").innerHTML = "";
+        return;
+    } else {
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                document.getElementById("ff").innerHTML = xmlhttp.responseText;
+            }
+        }
+        xmlhttp.open("GET", "ShowType.jsp?CategorySelect="+str, true);
+        xmlhttp.send();
+    }
+}
+</script>
+
+</head>
+
+
+<body >
+	<div id="container"><!-- This is wrapper div -->
+	
+		<div id="header"><!-- This is header div -->
+			<p id="ggg"></p>
+		</div>
+		
+		<div id="menu"><!-- This is navigation menu -->
+			<ul id="navmenu">
+				<li><a href="#"> My Profile</a></li>
+				<li class="active"><a href="#">Manage Products</a>
+					<ul class="sub1">
+						<li><a href="#">Add New Product</a>
+							<ul class="sub2">
+								<li><a href="#">Electronics</a>
+									<ul class="sub3">
+										<li><a href="#">Mobiles</a></li>
+										<li><a href="#">Laptops</a></li>
+									</ul></li>
+								<li><a href="Admin_Men_InsertPrdct.jsp">Mens Wear</a></li>
+								<li><a href="#">Women Wear</a></li>
+								<li><a href="#">Kids Wear</a></li>
+							</ul></li>
+						<li><a href="#">Edit Product</a>
+							<ul class="sub2">
+								<li><a href="#">Electronics</a>
+									<ul class="sub3">
+										<li><a href="#">Mobiles</a></li>
+										<li><a href="#">Laptops</a></li>
+									</ul></li>
+								<li><a href="Admin_Men_EditPrdct.jsp">Mens Wear</a></li>
+								<li><a href="#">Women Wear</a></li>
+								<li><a href="#">Kids Wear</a></li>
+							</ul></li>
+						<li><a href="#">Delete Product</a>
+							<ul class="sub2">
+								<li><a href="#">Electronics</a>
+									<ul class="sub3">
+										<li><a href="#">Mobiles</a></li>
+										<li><a href="#">Laptops</a></li>
+									</ul></li>
+								<li><a href="Admin_Men_DeletePrdct.jsp">Mens Wear</a></li>
+								<li><a href="#">Women Wear</a></li>
+								<li><a href="#">Kids Wear</a></li>
+							</ul></li>
+					</ul></li>
+				<li><a href="#">Manage Order Status</a>
+					<ul class="sub1">
+						<li><a href="ManageOrderStatus.jsp">Order Stat Page</a></li>
+					</ul></li>
+				<li class="active"><a href="#">Manage Users</a>
+					<ul class="sub1">
+						<li><a href="View_User_AdminForDelete.jsp">Delete User</a></li>
+						<li><a href="View_User_Admin.jsp">View Users</a></li>
+					</ul></li>
+				<li class="active"><a href="#">Manage Retailers</a>
+					<ul class="sub1">
+						<li><a href="View_Retailer_AdminForDelete.jsp">Delete Retailer</a></li>
+						<li><a href="View_Retailer_Admin.jsp">View Retailer</a></li>
+					</ul></li>
+
+				<li class="active"><a href="#">Manage Reports</a>
+					<ul class="sub1">
+						<li><a href="#">Daily Sales </a></li>
+						<li><a href="#">Monthly Sales </a></li>
+						<li><a href="#">Yearly Sales</a></li>
+						<li><a href="#">Product-wise Sales </a></li>
+					</ul></li>
+			</ul>
+		</div>
+
+		<div id="menu3"><!-- This is left menu for Orders -->
+			
+			<div id="table_order">
+				<p class="effect">
+					<a href="#">Track Order</a>
+				</p>
+				<br />
+				<p class="effect">
+					<a href="#">Latest Orders</a>
+				</p>
+				<br />
+				<p class="effect">
+					<a href="#">Delivered Orders</a>
+				</p>
+				<br />
+				<p class="effect">
+					<a href="#">Cancelled Orders</a>
+				</p>
+				<br />
+				<p class="effect">
+					<a href="#">Pending Orders</a>
+				</p>
+				<br />
+				<p class="effect">
+					<a href="#">Refunded Orders</a>
+				</p>
+				<br />
+				<p class="effect">
+					<a href="#">All Orders By Status</a>
+				</p>
+			</div>
+		</div>
+		
+		<div id="content"><!-- This is the content div -->
+            
+            <form action="Admin_Men_InsertPrdct" method="post">
+			<table  id="ProductEntry" align="center"
+				style="width: 40%; height: 458px;" cellspacing="5">
+				<tr>
+					<th colspan="2">New Product Details</th>
+				</tr>
+				<tr>
+					<td style="padding-left: 5%" ><input type="text" name="ProductAddedOn" id="ppp" readonly="readonly" onkeydown="return false;"
+						placeholder="Product Added On (dd-mm-yy)" size="39" onclick="myFunction()" ></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td style="padding-left: 5%;"><input type="text"
+						name="Product_Id" placeholder="Product_Id" size="39"></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td  id="dd" style="padding-left: 5%"><select name="Category_MenWear" onclick="show(this.value)">
+							<option selected="selected" value="Category">Select Your Category</option>
+							<option value="Casual">Casual</option>
+							<option value="Formals">Formals</option>
+							<option value="Ethnic">Ethnic</option>
+					</select></td> 
+					<td></td>
+				</tr>
+				<tr>
+					<td id="ff" style="padding-left: 5%"><select name="Type_MenWear">
+							<option selected="selected">Select Your Type</option>
+					</select></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td style="padding-left: 5%"><input type="text"
+						name="BrandName" placeholder="Brand Name" size="39"></td>
+					<td></td>
+				</tr>
+				
+				<tr>
+					<td style="padding-left: 5%"><input type="text" name="Fit"
+						placeholder="Fittings like Regular,Tappered,Skinny etc" size="39"></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td style="padding-left: 5%"><input type="text" name="Price"
+						placeholder="Price" size="39"></td>
+					<td></td>
+				</tr>
+				
+				<tr>
+					<td style="padding-left: 5%"><textarea rows="6" cols="41" name="About_The_Product"
+							placeholder="About the Product"></textarea></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td style="padding-left: 5%"><input type="text" name="Header"
+						placeholder="Tag line about The Product" size="39"></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td style="padding-left: 9%"><input type="submit"
+						name="Submit_Product" value="Add Product" size="25"></td>
+				</tr>
+
+			 </table>
+			</form>
+			
+			<!-- <p id="Image">New Color Details</p> -->
+			<form action="Admin_Men_InsertPrdct" method="post">
+			<table id="Color_Table"  style="width:40%; height:200px;" cellspacing="4"   align="center" >
+			
+			<tr><th colspan="3">New Color/Size Details</th></tr>
+			<tr><td colspan="3"><input type="text" name="Product_Id_Color" placeholder="Enter the Product_Id">
+			</td><td></td></tr>
+		    <tr><td><input type="text" name="Color1" placeholder="Available Color 1" size="16"></td>
+			<td><input type="text" name="Quantity1" placeholder="Available Quantity 1" size="14" class="size"></td>
+			<td><input type="text" name="Size1" placeholder=" Size 1" size="5"> </td><td></td></tr>
+			
+			<tr><td><input type="text" name="Color2" placeholder ="Available Color 2" size="16"></td>
+			<td><input type="text" name="Quantity2" placeholder="Available Quantity 2" size="14" class="size"></td>
+			<td><input type="text" name="Size2"   placeholder="Size 2" size="5"></td></tr>
+			<tr><td><input type="text" name="Color3" placeholder ="Available Color 3" size="16"></td>
+			<td><input type="text" name="Quantity3" placeholder="Available Quantity 3" size="14" class="size"></td>
+			<td><input type="text" name="Size3" placeholder="Size 3" size="5" ></td></tr>
+			
+			
+			<tr><td><input type="text" name="Color4" placeholder="Available Color 4" size="16"></td>
+			<td><input type="text" name="Quantity4" placeholder="Available Quantity 4" size="14" class="size"></td>
+			<td><input type="text" name="Size4" placeholder="Size 4" size="5"></td></tr>
+			
+			<tr><td><input type="text" name="Color5" placeholder="Available Color 5" size="16"></td>
+			<td><input type="text" name="Quantity5" placeholder="Available Quantity 5" size="14" class="size"></td>
+			<td><input type="text" name="Size5" placeholder="Size 5" size="5"></td></tr>
+			
+			<tr><td><input type="Submit" value="Add Color/Size" ></td>
+			<td><input type="text" name="Total Quantity" placeholder=" Total Quantity" size="14" id="Total_Quantity" ></td><td></td></tr>
+			<tr></tr>
+			</table>
+			</form>
+			
+			<!-- <p id="Image">New Image Details</p> -->
+			<form action="Admin_Men_InsertPrdct" method="post" enctype="multipart/form-data">
+			<table id="Image_Table"  style="min-width:44.3%; min-height:221px;" cellspacing="4" align="center">
+			
+			<tr><th colspan="2">New Image Details</th></tr>
+			<tr><td><input type="text" name="Product_Id_Image" placeholder="Enter the Product_Id"></td>
+			<td><input type="text" name="Color_Of_Image" placeholder="Enter the Color 1"></td></tr>
+			
+			<tr><td colspan="3"><input type="file" name="Image_1" value="Choose Image 1"></td></tr>
+			
+			<tr><td colspan="3"><input type="file" name="Image_2"></td></tr>
+			<tr><td colspan="3"><input type="file" name="Image_3"></td></tr>
+			
+			<tr><td colspan="3"><input type="file" name="Image_4"></td></tr>
+			
+			<tr><td colspan="3"><input type="file" name="Image_5"></td></tr>
+			
+			<tr><td colspan="3"><input type="Submit" value="Add Image"></td></tr>
+			</table>
+			</form>
+		</div>
+			
+		<div id="menu5"><!-- This is the left menu for Products -->
+			
+			<div id="table_orders">
+
+				<p class="effect">
+					<a href="#">All Products By Category</a>
+				</p>
+				<br />
+				<p class="effect">
+					<a href="#">Categories</a>
+				</p>
+				<br />
+				<p class="effect">
+					<a href="#">All Visits</a>
+				</p>
+				<br />
+				<p class="effect">
+					<a href="#">Low Stock Products</a>
+				</p>
+				<br />
+				<p class="effect">
+					<a href="#">Offers and PromoCode</a>
+				</p>
+				<br />
+				<p class="effect">
+					<a href="#">Complains/Feedback</a>
+				</p>
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>

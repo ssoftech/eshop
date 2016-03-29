@@ -1,0 +1,196 @@
+@import url('http://fonts.googleapis.com/css?family=Quicksand');
+
+@CHARSET "ISO-8859-1";
+
+html, body {
+	background: url("../images1/LoginImgs/woodpattern1.jpg");
+}
+
+table {
+	height: 320px;
+	width: 500px;
+	border: 2px groove #44c7f4;
+	outline: none;
+	cursor: pointer;
+	border-radius: 10px;
+	border-color: #44c7f4;
+	float: center;
+	margin-top: 200px;
+	margin-left: 450px;
+	font: Arial;
+	font-style: normal;
+	padding-right: 0px;
+	display: block;
+}
+
+input[name="email"] {
+	outline: none;
+	font-size: 15px;
+	color: #0080ff;
+	padding: 9px 30px 10px 36px;
+	margin-top: 25px;
+	margin-left: -34px;
+	width: 320px;
+	border: none;
+	border-radius: 4px;
+	border-bottom: 2px solid #cecfd3;
+	-webkit-appearance: none;
+	background-image: url("../images/emai.jpg");
+	background-position: 7px 7px;
+	background-repeat: no-repeat;
+	font-style: Quicksand;
+	position: relative;
+}
+
+input[type="password"] {
+	outline: none;
+	font-size: 15px;
+	color: #44c7f4;
+	padding: 9px 30px 10px 36px;
+	margin-top: 10px;
+	margin-left: -34px;
+	width: 320px;
+	border: none;
+	border-radius: 4px;
+	border-bottom: 2px solid #cecfd3;
+	-webkit-appearance: none;
+	background-image: url("../images/password.png");
+	background-position: 7px 7px;
+	background-repeat: no-repeat;
+	font-style: Quicksand;
+	position: relative;
+}
+
+input[name="empid"] {
+	outline: none;
+	font-size: 15px;
+	color: #44c7f4;
+	padding: 9px 30px 10px 36px;
+	margin-top: 10px;
+	margin-left: -34px;
+	width: 320px;
+	border: none;
+	border-radius: 4px;
+	border-bottom: 2px solid #cecfd3;
+	-webkit-appearance: none;
+	background-image: url("../images/employee_id.png");
+	background-position: 7px 7px;
+	background-repeat: no-repeat;
+	font-style: 'Quicksand';
+	position: relative;
+}
+
+.loginAd {
+	font-family: monospace;
+}
+
+.loginAd-top {
+	padding: 0px 25px;
+	margin-top: 20px;
+}
+
+.resp-tab-item {
+	color: #44c7f4;
+	font-size: 23px;
+	cursor: pointer;
+	padding: 0px 0px;
+	display: block;
+	margin: 0;
+	text-align: center;
+	list-style: none;
+	outline: none;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+	margin: 0 5px;
+}
+
+.resp-tab-item:HOVER {
+	-webkit-filter: brightness(120%);
+}
+
+.resp-tabs-list {
+	list-style: none;
+	padding-left: 19px;
+	text-align: left;
+}
+
+input[type="button"] {
+	font-family: monospace;
+	font-size: 15px;
+	color: #44c7f4;
+	background: #fff;
+	border: 1px solid #44c7f4;
+	cursor: pointer;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px white;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	-ms-border-radius: 10px;
+	padding: 6px 13px;
+	margin-bottom: 10px;
+	margin-top: 15px;
+	display: block;
+}
+
+input[type="button"]:hover {
+	background: #44c7f4;
+	color: #fff;
+	transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	-ms-transition: 0.5s all ease;
+}
+
+input[type="submit"] {
+	font-family: monospace;
+	font-size: 15px;
+	color: #44c7f4;
+	background: #fff;
+	border: 1px solid #44c7f4;
+	cursor: pointer;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px white;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	-ms-border-radius: 10px;
+	padding: 6px 13px;
+	margin-bottom: 10px;
+	margin-top: 15px;
+	display: block;
+}
+
+input[type="submit"]:hover {
+	background: #44c7f4;
+	color: #fff;
+	transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	-ms-transition: 0.5s all ease;
+}
+
+input::-webkit-input-placeholder {
+	color: #43a0bf;
+	font-style: Quicksand;
+}
+
+input:-ms-input-placeholder {
+	color: #43a0bf;
+	font-style: Quicksand;
+}
+
+input:-moz-placeholder {
+	color: #43a0bf;
+	font-style: Quicksand;
+}
+
+input::-moz-placeholder {
+	color: #43a0bf;
+	font-style: Quicksand;
+}

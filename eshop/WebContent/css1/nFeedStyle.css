@@ -1,0 +1,547 @@
+.nFeed1 {
+	/* border: 2px solid green; */
+	width: 230px;
+	height: 200px;
+	margin-top: -220px;
+	margin-left: 345px;
+	padding: 0 0 0 0;
+	position: fixed;
+}
+
+.nFeed2 {
+	/* border: 2px solid green; */
+	width: 220px;
+	height: 200px;
+	margin-top: -220px;
+	margin-left: 582px;
+	padding: 0 0 0 0;
+	position: fixed;
+}
+
+.nFeed3 {
+	/* border: 2px solid green; */
+	width: 180px;
+	height: 50px;
+	margin-top: -220px;
+	margin-left: 810px;
+	padding: 0 0 0 0;
+	position: fixed;
+}
+
+.nFeed4 {
+	/* border: 2px solid green; */
+	width: 180px;
+	height: 50px;
+	margin-top: -166px;
+	margin-left: 810px;
+	padding: 0 0 0 0;
+	position: fixed;
+}
+
+.nFeed5 {
+	/* border: 2px solid green; */
+	width: 180px;
+	height: 50px;
+	margin-top: -112px;
+	margin-left: 810px;
+	padding: 0 0 0 0;
+	position: fixed;
+}
+
+.nFeed6 {
+	/* border: 2px solid green; */
+	width: 180px;
+	height: 50px;
+	margin-top: -60px;
+	margin-left: 810px;
+	padding: 0 0 0 0;
+	position: fixed;
+}
+
+.nFeed7 {
+	/* border: 2px solid green; */
+	width: 180px;
+	height: 50px;
+	margin-top: -220px;
+	margin-left: 1000px;
+	padding: 0 0 0 0;
+	position: fixed;
+}
+
+.nFeed8 {
+	/* border: 2px solid green; */
+	width: 200px;
+	height: 155px;
+	margin-top: -163px;
+	margin-left: 1000px;
+	padding: 0 0 0 0;
+	position: fixed;
+}
+
+#NewsFeedTab1 {
+	padding: 0px;
+	font-family: monospace;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#NewsFeedTab1 tr:nth-child(2) td span {
+	position: absolute;
+	opacity: 0;
+	overflow: hidden;
+	color: #6b969d;
+	-webkit-animation: slideWord 13s linear infinite 0s;
+	-ms-animation: slideWord 13s linear infinite 0s;
+	animation: slideWord 13s linear infinite 0s;
+}
+
+#NewsFeedTab1 tr:nth-child(2) td span:nth-child(2) {
+	position: inherit;
+	color: #6b969d;
+	-webkit-animation: slideWord 13s linear infinite 3s;
+	-ms-animation: slideWord 13s linear infinite 3s;
+	animation: slideWord 13s linear infinite 3s;
+}
+
+#NewsFeedTab1 tr:nth-child(3) td span {
+	position: absolute;
+	opacity: 0;
+	overflow: hidden;
+	color: #6b969d;
+	-webkit-animation: slideWord 13s linear infinite 6s;
+	-ms-animation: slideWord 13s linear infinite 6s;
+	animation: slideWord 13s linear infinite 6s;
+}
+
+#NewsFeedTab1 tr:nth-child(3) td span:nth-child(2) {
+	position: inherit;
+	color: #6b969d;
+	-webkit-animation: slideWord 13s linear infinite 10s;
+	-ms-animation: slideWord 13s linear infinite 10s;
+	animation: slideWord 13s linear infinite 10s;
+}
+
+#NewsFeedTab1 tr:nth-child(4) td span {
+	position: absolute;
+	opacity: 0;
+	overflow: hidden;
+	color: #6b969d;
+	-webkit-animation: slideWord 13s linear infinite 0s;
+	-ms-animation: slideWord 13s linear infinite 0s;
+	animation: slideWord 13s linear infinite 0s;
+}
+
+#NewsFeedTab1 tr:nth-child(4) td span:nth-child(2) {
+	position: inherit;
+	color: #6b969d;
+	-webkit-animation: slideWord 13s linear infinite 3s;
+	-ms-animation: slideWord 13s linear infinite 3s;
+	animation: slideWord 13s linear infinite 3s;
+}
+
+#NewsFeedTab1 tr:nth-child(5) td span {
+	position: absolute;
+	opacity: 0;
+	overflow: hidden;
+	color: #6b969d;
+	-webkit-animation: slideWord 13s linear infinite 6s;
+	-ms-animation: slideWord 13s linear infinite 6s;
+	animation: slideWord 13s linear infinite 6s;
+}
+
+#NewsFeedTab1 tr:nth-child(5) td span:nth-child(2) {
+	position: inherit;
+	color: #6b969d;
+	-webkit-animation: slideWord 13s linear infinite 10s;
+	-ms-animation: slideWord 13s linear infinite 10s;
+	animation: slideWord 13s linear infinite 10s;
+}
+
+#NewsFeedTab1 tr:nth-child(6) td span {
+	position: absolute;
+	opacity: 0;
+	overflow: hidden;
+	color: #6b969d;
+	-webkit-animation: slideWord 13s linear infinite 0s;
+	-ms-animation: slideWord 13s linear infinite 0s;
+	animation: slideWord 13s linear infinite 0s;
+}
+
+#NewsFeedTab1 tr:nth-child(6) td span:nth-child(2) {
+	position: inherit;
+	color: #6b969d;
+	-webkit-animation: slideWord 13s linear infinite 3s;
+	-ms-animation: slideWord 13s linear infinite 3s;
+	animation: slideWord 13s linear infinite 3s;
+}
+
+#NewsFeedTab1 tr:nth-child(7) td span {
+	position: absolute;
+	opacity: 0;
+	overflow: hidden;
+	color: #6b969d;
+	-webkit-animation: slideWord 13s linear infinite 6s;
+	-ms-animation: slideWord 13s linear infinite 6s;
+	animation: slideWord 13s linear infinite 6s;
+}
+
+#NewsFeedTab1 tr:nth-child(7) td span:nth-child(2) {
+	position: inherit;
+	color: #6b969d;
+	-webkit-animation: slideWord 13s linear infinite 10s;
+	-ms-animation: slideWord 13s linear infinite 10s;
+	animation: slideWord 13s linear infinite 10s;
+}
+
+#NewsFeedTab1 tr:nth-child(8) td span {
+	position: absolute;
+	opacity: 0;
+	overflow: hidden;
+	color: #6b969d;
+	-webkit-animation: slideWord 13s linear infinite 0s;
+	-ms-animation: slideWord 13s linear infinite 0s;
+	animation: slideWord 13s linear infinite 0s;
+}
+
+#NewsFeedTab1 tr:nth-child(8) td span:nth-child(2) {
+	position: inherit;
+	color: #6b969d;
+	-webkit-animation: slideWord 13s linear infinite 3s;
+	-ms-animation: slideWord 13s linear infinite 3s;
+	animation: slideWord 13s linear infinite 3s;
+}
+
+#NewsFeedTab1 tr:nth-child(9) td span {
+	position: absolute;
+	opacity: 0;
+	overflow: hidden;
+	color: #6b969d;
+	-webkit-animation: slideWord 13s linear infinite 6s;
+	-ms-animation: slideWord 13s linear infinite 6s;
+	animation: slideWord 13s linear infinite 6s;
+}
+
+#NewsFeedTab1 tr:nth-child(9) td span:nth-child(2) {
+	position: inherit;
+	color: #6b969d;
+	-webkit-animation: slideWord 13s linear infinite 10s;
+	-ms-animation: slideWord 13s linear infinite 10s;
+	animation: slideWord 13s linear infinite 10s;
+}
+
+#NewsFeedTab1 tr:nth-child(10) td span {
+	position: absolute;
+	opacity: 0;
+	overflow: hidden;
+	color: #6b969d;
+	-webkit-animation: slideWord 13s linear infinite 0s;
+	-ms-animation: slideWord 13s linear infinite 0s;
+	animation: slideWord 13s linear infinite 0s;
+}
+
+#NewsFeedTab1 tr:nth-child(10) td span:nth-child(2) {
+	position: inherit;
+	color: #6b969d;
+	-webkit-animation: slideWord 13s linear infinite 3s;
+	-ms-animation: slideWord 13s linear infinite 3s;
+	animation: slideWord 13s linear infinite 3s;
+}
+
+#NewsFeedTab2 {
+	padding: 0px;
+	font-family: monospace;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#NewsFeedTab2 tr:nth-child(2) td span {
+	position: relative;
+	opacity: 0;
+	overflow: hidden;
+	color: #6b969d;
+	-webkit-animation: slideWord 10s linear infinite 0s;
+	-ms-animation: slideWord 10s linear infinite 0s;
+	animation: slideWord 10s linear infinite 0s;
+}
+
+#NewsFeedTab2 tr:nth-child(3) td span {
+	position: relative;
+	opacity: 0;
+	overflow: hidden;
+	color: #6b969d;
+	-webkit-animation: slideWord 10s linear infinite 5s;
+	-ms-animation: slideWord 10s linear infinite 5s;
+	animation: slideWord 10s linear infinite 5s;
+}
+
+#NewsFeedTab2 tr:nth-child(4) td span {
+	position: relative;
+	opacity: 0;
+	overflow: hidden;
+	color: #6b969d;
+	-webkit-animation: slideWord 10s linear infinite 0s;
+	-ms-animation: slideWord 10s linear infinite 0s;
+	animation: slideWord 10s linear infinite 0s;
+}
+
+#NewsFeedTab2 tr:nth-child(5) td span {
+	position: relative;
+	opacity: 0;
+	overflow: hidden;
+	color: #6b969d;
+	-webkit-animation: slideWord 10s linear infinite 5s;
+	-ms-animation: slideWord 10s linear infinite 5s;
+	animation: slideWord 10s linear infinite 5s;
+}
+
+#NewsFeedTab2 tr:nth-child(6) td span {
+	position: relative;
+	opacity: 0;
+	overflow: hidden;
+	color: #6b969d;
+	-webkit-animation: slideWord 10s linear infinite 0s;
+	-ms-animation: slideWord 10s linear infinite 0s;
+	animation: slideWord 10s linear infinite 0s;
+}
+
+#NewsFeedTab2 tr:nth-child(7) td span {
+	position: relative;
+	opacity: 0;
+	overflow: hidden;
+	color: #6b969d;
+	-webkit-animation: slideWord 10s linear infinite 5s;
+	-ms-animation: slideWord 10s linear infinite 5s;
+	animation: slideWord 10s linear infinite 5s;
+}
+
+#NewsFeedTab2 tr:nth-child(8) td span {
+	position: relative;
+	opacity: 0;
+	overflow: hidden;
+	color: #6b969d;
+	-webkit-animation: slideWord 10s linear infinite 0s;
+	-ms-animation: slideWord 10s linear infinite 0s;
+	animation: slideWord 10s linear infinite 0s;
+}
+
+#NewsFeedTab2 tr:nth-child(9) td span {
+	position: relative;
+	opacity: 0;
+	overflow: hidden;
+	color: #6b969d;
+	-webkit-animation: slideWord 10s linear infinite 5s;
+	-ms-animation: slideWord 10s linear infinite 5s;
+	animation: slideWord 10s linear infinite 5s;
+}
+
+#NewsFeedTab2 tr:nth-child(10) td span {
+	position: relative;
+	opacity: 0;
+	overflow: hidden;
+	color: #6b969d;
+	-webkit-animation: slideWord 10s linear infinite 0s;
+	-ms-animation: slideWord 10s linear infinite 0s;
+	animation: slideWord 10s linear infinite 0s;
+}
+
+#NewsFeedTab3 {
+	padding: 0px;
+	font-family: monospace;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#NewsFeedTab3 tr:nth-child(2) td span {
+	position: relative;
+	opacity: 0;
+	overflow: hidden;
+	color: #6b969d;
+	-webkit-animation: slideWord 0s linear infinite 0s;
+	-ms-animation: slideWord 0s linear infinite 0s;
+	animation: slideWord 0s linear infinite 0s;
+}
+
+#NewsFeedTab4 {
+	padding: 0px;
+	font-family: monospace;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#NewsFeedTab4 tr:nth-child(2) td span {
+	position: relative;
+	opacity: 0;
+	overflow: hidden;
+	color: #6b969d;
+	-webkit-animation: slideWord 0s linear infinite 0s;
+	-ms-animation: slideWord 0s linear infinite 0s;
+	animation: slideWord 0s linear infinite 0s;
+}
+
+#NewsFeedTab5 {
+	padding: 0px;
+	font-family: monospace;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#NewsFeedTab5 tr:nth-child(2) td span {
+	position: relative;
+	opacity: 0;
+	overflow: hidden;
+	color: #6b969d;
+	-webkit-animation: slideWord 0s linear infinite 0s;
+	-ms-animation: slideWord 0s linear infinite 0s;
+	animation: slideWord 0s linear infinite 0s;
+}
+
+#NewsFeedTab6 {
+	padding: 0px;
+	font-family: monospace;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#NewsFeedTab6 tr:nth-child(2) td span {
+	position: relative;
+	opacity: 0;
+	overflow: hidden;
+	color: #6b969d;
+	-webkit-animation: slideWord 0s linear infinite 0s;
+	-ms-animation: slideWord 0s linear infinite 0s;
+	animation: slideWord 0s linear infinite 0s;
+}
+
+#NewsFeedTab7 {
+	padding: 0px;
+	font-family: monospace;
+	font-size: 16px;
+	text-align: center;
+	text-shadow: 0px 0px 1px;
+	text-decoration: none;
+}
+
+#NewsFeedTab7 tr:nth-child(2) td span {
+	position: relative;
+	opacity: 0;
+	overflow: hidden;
+	color: #6b969d;
+	-webkit-animation: slideWord 0s linear infinite 0s;
+	-ms-animation: slideWord 0s linear infinite 0s;
+	animation: slideWord 0s linear infinite 0s;
+}
+
+#NewsFeedTab8 {
+	padding: 0px;
+	font-family: monospace;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#NewsFeedTab8 tr:nth-child(2) td span {
+	position: relative;
+	opacity: 0;
+	overflow: hidden;
+	color: #6b969d;
+	-webkit-animation: slideWord 6s linear infinite 0s;
+	-ms-animation: slideWord 6s linear infinite 0s;
+	animation: slideWord 6s linear infinite 0s;
+}
+
+#NewsFeedTab8 tr:nth-child(3) td span {
+	position: relative;
+	opacity: 0;
+	overflow: hidden;
+	color: #6b969d;
+	-webkit-animation: slideWord 6s linear infinite 3s;
+	-ms-animation: slideWord 6s linear infinite 3s;
+	animation: slideWord 6s linear infinite 3s;
+}
+
+#NewsFeedTab8 tr:nth-child(4) td span {
+	position: relative;
+	opacity: 0;
+	overflow: hidden;
+	color: #6b969d;
+	-webkit-animation: slideWord 6s linear infinite 0s;
+	-ms-animation: slideWord 6s linear infinite 0s;
+	animation: slideWord 6s linear infinite 0s;
+}
+
+#NewsFeedTab8 tr:nth-child(5) td span {
+	position: relative;
+	opacity: 0;
+	overflow: hidden;
+	color: #6b969d;
+	-webkit-animation: slideWord 6s linear infinite 3s;
+	-ms-animation: slideWord 6s linear infinite 3s;
+	animation: slideWord 6s linear infinite 3s;
+}
+
+#NewsFeedTab8 tr:nth-child(6) td span {
+	position: relative;
+	opacity: 0;
+	overflow: hidden;
+	color: #6b969d;
+	-webkit-animation: slideWord 6s linear infinite 0s;
+	-ms-animation: slideWord 6s linear infinite 0s;
+	animation: slideWord 6s linear infinite 0s;
+}
+
+#NewsFeedTab8 tr:nth-child(7) td span {
+	position: relative;
+	opacity: 0;
+	overflow: hidden;
+	color: #6b969d;
+	-webkit-animation: slideWord 6s linear infinite 3s;
+	-ms-animation: slideWord 6s linear infinite 3s;
+	animation: slideWord 6s linear infinite 3s;
+}
+
+@-webkit-keyframes slideWord {
+    0% { opacity: 0; }
+    2% { opacity: 0; -webkit-transform: translateY(-30px); }
+	5% { opacity: 1; -webkit-transform: translateY(0px);}
+	10% { opacity: 1; -webkit-transform: translateY(0px);}
+    17% { opacity: 1; -webkit-transform: translateY(0px); }
+	28% { opacity: 1; -webkit-transform: translateY(0px); }
+	35% { opacity: 0; -webkit-transform: translateY(30px); }
+	45% { opacity: 0; -webkit-transform: translateY(30px); }
+	60% { opacity: 0; -webkit-transform: translateY(30px); }
+	80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@-ms-keyframes slideWord {
+    0% { opacity: 0; }
+    2% { opacity: 0; -ms-transform: translateY(-30px); }
+	5% { opacity: 1; -ms-transform: translateY(0px);}
+	10% { opacity: 1; -ms-transform: translateY(0px);}
+    17% { opacity: 1; -ms-transform: translateY(0px); }
+    28% { opacity: 1; -ms-transform: translateY(0px); }
+	35% { opacity: 0; -ms-transform: translateY(30px); }
+	45% { opacity: 0; -ms-transform: translateY(30px); }
+	60% { opacity: 0; -ms-transform: translateY(30px); }
+	80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@keyframes slideWord {
+    0% { opacity: 0; }
+    2% { opacity: 0; -webkit-transform: translateY(-30px); transform: translateY(-30px); }
+	5% { opacity: 1; -webkit-transform: translateY(0px); transform: translateY(0px);}
+	10% { opacity: 1; -webkit-transform: translateY(0px); transform: translateY(0px);}
+    17% { opacity: 1; -webkit-transform: translateY(0px); transform: translateY(0px); }
+	28% { opacity: 1; -webkit-transform: translateY(30px); transform: translateY(0px); }
+	35% { opacity: 0; -webkit-transform: translateY(30px); transform: translateY(30px); }
+	45% { opacity: 0; -webkit-transform: translateY(30px); transform: translateY(30px); }
+	60% { opacity: 0; -webkit-transform: translateY(30px); transform: translateY(30px); }
+	80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+

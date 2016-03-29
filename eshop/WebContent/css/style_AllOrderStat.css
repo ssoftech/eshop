@@ -1,0 +1,86 @@
+#selStat{
+	width: 340px;
+	height: 40px;
+	margin-left: 40px;
+	margin-top: 15px;
+	border: 1px solid black;
+	box-shadow: 0px 0px 6px black;
+}
+
+#status_prdcts{
+	position: relative;
+	width: 840px;
+	margin-top: 20px;
+	margin-left: 20px;
+	border: 1px solid black;
+	box-shadow: 0px 0px 6px black;
+}
+
+#status_prdcts tr:FIRST-CHILD {
+	border-bottom: 1px solid black;
+	background-color: #c3c3c3;
+}
+
+#status_prdcts tr:not(:FIRST-CHILD) {
+	height: 40px;
+}
+
+#status_prdcts tr:nth-child(even){
+	background-color: #eeeeee;
+}
+
+/*TRACK ORDER CSS UNDERNEATH*/
+
+#tracker{
+	position: relative;
+	width: 840px;
+	margin-top: 20px;
+	margin-left: 20px;
+	border: 1px solid black;
+	box-shadow: 0px 0px 6px black;
+}
+
+#tracker tr:FIRST-CHILD {
+	border-bottom: 1px solid black;
+	background-color: #c3c3c3;
+}
+
+#tracker tr:not(:FIRST-CHILD) {
+	height: 40px;
+}
+
+#tracker tr:nth-child(even){
+	background-color: #eeeeee;
+}
+
+#ipTrack{
+	margin-top: 10px;
+	padding-left: 20px;
+	height: 30px;
+	border: 1px solid black;
+	box-shadow: 0px 0px 4px black;
+}
+
+/*LOW STOCK CSS UNDERNEATH*/
+
+#low_stocks{
+	position: relative;
+	width: 780px;
+	margin-top: 20px;
+	margin-left: 45px;
+	border: 1px solid black;
+	box-shadow: 0px 0px 6px black;
+}
+
+#low_stocks tr:FIRST-CHILD {
+	border-bottom: 1px solid black;
+	background-color: #c3c3c3;
+}
+
+#low_stocks tr:not(:FIRST-CHILD) {
+	height: 40px;
+}
+
+#low_stocks tr:nth-child(even){
+	background-color: #eeeeee;
+}

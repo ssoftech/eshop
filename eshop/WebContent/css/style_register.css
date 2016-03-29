@@ -1,0 +1,199 @@
+@import url('http://fonts.googleapis.com/css?family=Quicksand');
+@CHARSET "ISO-8859-1";
+
+html{
+	background: url("../images1/LoginImgs/woodpattern1.jpg");
+}
+
+#header {
+  background: #4cb6ea;
+  margin: 0;
+  width: auto;
+  padding: 0;
+  line-height: 1;
+  display: block;
+  position: relative;
+  font-family: sans-serif;
+}
+h1
+{
+	text-align: center;
+	text-shadow: 0 0 10px #ffffff;
+	font-family: fantasy;
+	color: #1f1f1f;
+}
+td.a 
+{
+	text-align:left;
+	width:auto;
+	font-family: Quicksand;
+	font-weight:bold;
+	position:relative;
+	left:30px;
+	color: white;
+}
+.icon{
+	background:url(../images/username.png)  no-repeat 0px 0px;
+	height:40px;
+	width:40px;
+	display: block;
+	float:left;
+	margin:5px -11px 0px 0px
+}
+
+.user{
+	background: url(../images/username.png) no-repeat 7px 1px;
+	
+}
+.lock{
+	background: url(../images/icons.png) no-repeat -31px 2px;
+}
+
+input[type='text'] {
+    background-image: url(../images/username.png);
+    background-position: 7px 7px;
+    background-repeat: no-repeat;
+    padding-left: 36px;
+    
+    
+}
+
+input[name='email'] {
+    background-image: url(../images/emai.jpg);
+    background-position: 7px 7px;
+    background-repeat: no-repeat;
+    padding-left: 36px;
+    
+    
+}
+
+input[type='password'] {
+    background-image: url(../images/password.png);
+    background-position: 7px 7px;
+    background-repeat: no-repeat;
+    padding-left: 36px;
+    
+    
+}
+
+input[name='date of birth']{
+	
+	background-image: url(../images/dateofbirth.png);
+    background-position: 7px 7px;
+    background-repeat: no-repeat;
+    padding-left: 36px;
+    
+}
+input[name='phoneno'] {
+    background-image: url("../images/phone_image.png");
+    background-position: 7px 7px;
+    background-repeat: no-repeat;
+    padding-left: 36px;
+    
+    
+}
+
+input[name='pincode'] {
+    background-image: url("../images/location_image.png");
+    background-position: 7px 7px;
+    background-repeat: no-repeat;
+    padding-left: 36px;
+}
+
+input[name='employeeid'] {
+    background-image: url(../images/employee_id.png);
+    background-position: 7px 7px;
+    background-repeat: no-repeat;
+    padding-left: 36px;
+    
+    
+}
+
+input[type="submit"] {
+    font-size: 15px;
+    color: #44c7f4;
+    background: #fff;
+    border: 2px solid #44c7f4;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -o-border-radius: 20px;
+    -ms-border-radius: 20px;
+    padding: 6px 13px;
+    font-family: 'SourceSansPro-Regular';
+}
+ input[type="submit"]:hover{
+	background:#44c7f4;
+	color:#fff;
+	transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	-ms-transition: 0.5s all ease;
+}
+
+select
+{
+margin-right:10px;
+width:420px;
+margin-top:4px;
+font-family:Cursive;
+line-height:40px;
+height:38px;
+color:#43a0bf;	
+}
+/*  input[type="text"], input[type="password"] {
+	font-family: 'Open Sans', sans-serif;
+	
+	padding: 0.5em 2em 0.5em 1em;
+	color: #fff;
+	font-size:20px;
+	outline: none;
+	background: none;
+	border:none;
+}
+
+input[type="submit"]{
+	float:left;
+	font-size:18px;
+	display: inline-block;
+	font-weight:600;
+	color: #615F5F;
+	transition: 0.1s all;
+	-webkit-transition: 0.1s all;
+	-moz-transition: 0.1s all;
+	-o-transition: 0.1s all;
+	cursor: pointer;
+	outline: none;
+	padding:15px 10px;
+	margin-top:3px;
+	font-family: 'Open Sans', sans-serif;
+	background: #222;
+	width:45%;
+	border:1px solid #222;
+}*/
+/* input[type="image"]:hover{
+	background: #FFC600;
+	border:3px thick ;
+	border-style: ridge;
+	
+} */
+
+/* input[type="image"]:hover {
+  -webkit-filter: brightness(120%);
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+ input[type="image"] {
+  -webkit-filter: brightness(70%); */
+   
+}
+ */
+
+ 

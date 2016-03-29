@@ -1,0 +1,99 @@
+@CHARSET "ISO-8859-1";
+
+/* CSS Document */
+
+#loginwrapper
+{
+	margin:20px auto -40px 40px;
+	padding: 0px 0px 0px 0px;
+	width: 1310px;
+	/* height: 25px; */
+	/* border: 1px solid white; */
+	overflow: hidden;
+}
+
+#topmessageB
+{
+	font-size:12px; 
+    font-family:Arial, Helvetica, sans-serif;
+	color: #EEEEEE;
+    display:block;
+    outline:0;
+    text-decoration:none;
+    text-shadow: 1px 1px 1px #000;
+	text-align:justify;
+	position:relative;
+	width:700px;
+    margin:2px 0px 0px 0px;
+    margin-left: 15px;
+    height:25px;
+    padding:0px 0px 0px 0px;
+    /* border:1px solid white; */
+    float: left;
+}
+
+.greetUser a
+{
+	font-size:13px; 
+    font-family:Arial, Helvetica, sans-serif;
+	color: #80ff00;
+    outline:0;
+    text-decoration:none;
+    text-shadow: 0px 0px 5px #00ffff;
+	text-align:left;
+	padding:1px;
+	margin-left: 150px;
+	margin-bottom: -30px;
+	display: inline-block;
+	/* border: 1px solid white; */
+	position: relative;
+	overflow: hidden;
+	float: left;
+	width:auto;
+	max-width: 250px;
+}
+
+.help a 
+{
+	font-size:13px; 
+    font-family:Arial, Helvetica, sans-serif;
+	color: #EEEEEE;
+    outline:0;
+    text-decoration:none;
+    text-shadow: 1px 1px 1px #000;
+	text-align:left;
+	padding:1px;
+	margin-left: 445px;
+	display: block;
+	/* border: 1px solid white; */
+	position: relative;
+	overflow: auto;
+	float: left;
+	width:40px;
+}
+
+.signout a 
+{
+	font-size:13px; 
+    font-family:Arial, Helvetica, sans-serif;
+	color: #EEEEEE;
+    outline:0;
+    text-decoration:none;
+    text-shadow: 1px 1px 1px #000;
+	text-align:left;
+	padding:1px;
+	margin-left: 13px;
+	display: block;
+	/* border: 1px solid; */
+	float: left;
+	position:relative;
+	width:80px;
+}
+
+span
+{
+	color: #EEEEEE;
+	margin-left: 7px;
+	float: left;
+	position:relative;
+}

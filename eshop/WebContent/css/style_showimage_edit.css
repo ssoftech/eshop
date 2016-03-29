@@ -1,0 +1,71 @@
+@CHARSET "ISO-8859-1";
+
+table#show_imageedit {
+	margin-left: 9%;
+	width: 700px;
+	margin-top: 12%;
+}
+
+#show_imageedit th {
+	text-align: center;
+	font-family: "Quicksand";
+	color: 43a0bf;
+	text-shadow: 0 3px 3px #43a0bf;
+	padding-left: 2%;
+}
+
+#show_imageedit td {
+	text-align: center;
+	font-family: "Quicksand";
+	font-size: 15px;
+	font-weight: 600;
+	color: #43a0bf;
+	width: 140px;
+}
+
+#show_imageedit img {
+	border: 5px solid white;
+	border-radius: 2px;
+}
+
+table {
+	border-collapse: collapse;
+	empty-cells: hide;
+}
+
+table, th, td {
+	border: 2px groove #43a0bf;
+	border-radius: 2px;
+}
+
+th, td {
+	text-align: center;
+	vertical-align: middle;
+}
+
+th {
+	height: 30px;
+}
+
+td {
+	weight: 80px;
+}
+
+.thumbnail:hover {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: auto;
+	height: 220px;
+	display: inline-block;
+	z-index: 999;
+}
+
+#show_imageedit select {
+	width: 306px;
+	font-size: 15px;
+	font-weight: 600;
+	margin-top: 4px;
+	line-height: 4;
+	color: #43a0bf;
+}

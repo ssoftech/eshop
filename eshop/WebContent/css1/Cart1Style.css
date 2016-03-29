@@ -1,0 +1,200 @@
+@import url('http://fonts.googleapis.com/css?family=Roboto');
+
+@CHARSET "ISO-8859-1";
+
+html, body {
+	font-family: Roboto;
+	overflow-x: hidden;
+}
+
+#CartDetails {
+	float: left;
+	width: 900px;
+	height: auto;
+	margin-top: 63px;
+	margin-left: 25px;
+	margin-bottom: 10px; padding : 5px 5px 5px 5px;
+	display: block;
+	padding: 5px 5px 5px 5px;
+	/* border: 1px solid black; */
+}
+
+.CartTab1 {
+	width: 898px;
+	border: 1px solid white;
+	box-shadow: 2px 2px 10px black;
+	table-layout: fixed;
+	word-wrap: break-word;
+	margin-bottom: 5px;
+}
+
+.CartTab1 a {
+	text-decoration: none;
+	color: white;
+}
+
+.CartTab1 a:ACTIVE {
+	color: orange;
+	text-shadow: 0px 0px 25px white;
+}
+
+.CartTab2 {
+	text-align: right;
+	float: right;
+	width: 250px;
+	height: 60px;
+	margin-top: 0px;
+	margin-left: 470px;
+	/* border: 1px solid black; */
+}
+
+.CartTab2 a {
+	margin-right: -20px;
+	background: #f2edf2;
+	background-image: -webkit-linear-gradient(top, #f2edf2, #c1d4d4);
+	background-image: -moz-linear-gradient(top, #f2edf2, #c1d4d4);
+	background-image: -ms-linear-gradient(top, #f2edf2, #c1d4d4);
+	background-image: -o-linear-gradient(top, #f2edf2, #c1d4d4);
+	background-image: linear-gradient(to bottom, #f2edf2, #c1d4d4);
+	-webkit-border-radius: 5;
+	-moz-border-radius: 5;
+	border-radius: 2px;
+	font-family: Arial;
+	color: #000000;
+	font-size: 18px;
+	padding: 10px 16px 10px 16px;
+	text-decoration: none;
+	cursor: default;
+}
+
+.CartTab2 a:hover {
+	background: #f7eff7;
+	background-image: -webkit-linear-gradient(top, #f7eff7, #e8e8e8);
+	background-image: -moz-linear-gradient(top, #f7eff7, #e8e8e8);
+	background-image: -ms-linear-gradient(top, #f7eff7, #e8e8e8);
+	background-image: -o-linear-gradient(top, #f7eff7, #e8e8e8);
+	background-image: linear-gradient(to bottom, #f7eff7, #e8e8e8);
+	text-decoration: none;
+}
+
+#CartTotalPay {
+	width: 350px;
+	height: 500px;
+	display: block;
+	position: fixed;
+	margin-left: 950px;
+	margin-top: 120px;
+	border: 1px solid white;
+	overflow: auto;
+}
+
+.TotPayTab1 {
+	margin-top: 10px;
+	width: 345px;
+	height: auto;
+}
+
+.TotPayTab1 tr:FIRST-CHILD {
+	width: 300px;
+	text-align: center;
+}
+
+.TotPayTab2 {
+	margin-top: 30px;
+	width: 345px;
+	height: auto;
+}
+
+.TotPayTab2 tr:FIRST-CHILD {
+	width: 300px;
+	text-align: center;
+}
+
+.TotPayTab2 input[type=submit] {
+	background: #f2edf2;
+	background-image: -webkit-linear-gradient(top, #f2edf2, #c1d4d4);
+	background-image: -moz-linear-gradient(top, #f2edf2, #c1d4d4);
+	background-image: -ms-linear-gradient(top, #f2edf2, #c1d4d4);
+	background-image: -o-linear-gradient(top, #f2edf2, #c1d4d4);
+	background-image: linear-gradient(to bottom, #f2edf2, #c1d4d4);
+	-webkit-border-radius: 5;
+	-moz-border-radius: 5;
+	border-radius: 2px;
+	text-shadow: 0px 0px 5px #c0c0c0;
+	font-family: Arial;
+	color: #000000;
+	font-size: 18px;
+	padding: 10px 20px 7px 20px;
+	text-decoration: none;
+}
+
+.TotPayTab2 input[type=submit]:hover {
+	background: #f7eff7;
+	background-image: -webkit-linear-gradient(top, #f7eff7, #e8e8e8);
+	background-image: -moz-linear-gradient(top, #f7eff7, #e8e8e8);
+	background-image: -ms-linear-gradient(top, #f7eff7, #e8e8e8);
+	background-image: -o-linear-gradient(top, #f7eff7, #e8e8e8);
+	background-image: linear-gradient(to bottom, #f7eff7, #e8e8e8);
+	text-decoration: none;
+}
+
+.TotPayTab3 {
+	margin-left: 5px;
+	width: 335px;
+}
+
+.TotPayTab4 {
+	margin-top: 2px;
+	margin-left: 5px;
+	width: 335px;
+}
+
+.Thanks{
+	margin-left: 25%;
+	width: 700px;
+	height: auto;
+	color: white;
+	text-align: center;
+	border: 2px solid white;
+	border-radius: 8px;
+	box-shadow: 0px 0px 15px black;	
+}
+
+.ThanksCont {
+	text-align: center;
+	width: 250px;
+	height: 60px;
+	margin-top: -52px;
+	margin-left: 1040px;
+	/* border: 1px solid yellow; */
+}
+
+.ThanksCont a {
+	margin-right: -20px;
+	background: #f2edf2;
+	background-image: -webkit-linear-gradient(top, #f2edf2, #c1d4d4);
+	background-image: -moz-linear-gradient(top, #f2edf2, #c1d4d4);
+	background-image: -ms-linear-gradient(top, #f2edf2, #c1d4d4);
+	background-image: -o-linear-gradient(top, #f2edf2, #c1d4d4);
+	background-image: linear-gradient(to bottom, #f2edf2, #c1d4d4);
+	-webkit-border-radius: 5;
+	-moz-border-radius: 5;
+	border-radius: 2px;
+	font-family: Arial;
+	color: #000000;
+	font-size: 18px;
+	padding: 10px 16px 10px 16px;
+	text-decoration: none;
+	cursor: default;
+	box-shadow: 2px 2px 10px black;
+}
+
+.ThanksCont a:hover {
+	background: #f7eff7;
+	background-image: -webkit-linear-gradient(top, #f7eff7, #e8e8e8);
+	background-image: -moz-linear-gradient(top, #f7eff7, #e8e8e8);
+	background-image: -ms-linear-gradient(top, #f7eff7, #e8e8e8);
+	background-image: -o-linear-gradient(top, #f7eff7, #e8e8e8);
+	background-image: linear-gradient(to bottom, #f7eff7, #e8e8e8);
+	text-decoration: none;
+}

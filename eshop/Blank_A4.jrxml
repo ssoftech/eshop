@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
+<!-- 2016-02-20T14:59:03 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="e4c77898-36a1-4d95-a4e3-60f511dd7ca1">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<parameter name="Parameter1" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[Select * from invoice where InvoiceNo=$P{Parameter1}]]>
+	</queryString>
+	<field name="InvoiceNo" class="java.lang.Long">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Order_No" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Invoice_Date" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<group name="InvoiceNo">
+		<groupExpression><![CDATA[$F{InvoiceNo}]]></groupExpression>
+	</group>
+	<group name="Order_No">
+		<groupExpression><![CDATA[$F{Order_No}]]></groupExpression>
+	</group>
+	<group name="Invoice_Date">
+		<groupExpression><![CDATA[$F{Invoice_Date}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="90" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="185" height="30" uuid="41bf1e2b-a6e3-4145-986c-c17a53b3a492"/>
+				<text><![CDATA[InvoiceNo]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="185" y="0" width="185" height="30" uuid="8b9c30d5-ab78-4c56-a4eb-374867442ad3"/>
+				<text><![CDATA[Order_No]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="370" y="0" width="185" height="30" uuid="0020d21f-0288-4a58-a202-0618cd52858c"/>
+				<text><![CDATA[Invoice_Date]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="43" width="185" height="30" uuid="a9e195b7-4e30-4fff-9977-653db09a8667"/>
+				<textFieldExpression><![CDATA[$F{InvoiceNo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="185" y="43" width="185" height="30" uuid="d2bcc1f3-e560-483c-9730-87fc0c50a7c3"/>
+				<textFieldExpression><![CDATA[$F{Order_No}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="43" width="185" height="30" uuid="7869fde0-ebec-4649-b3ad-0b6e24405bd6"/>
+				<textFieldExpression><![CDATA[$F{Invoice_Date}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
